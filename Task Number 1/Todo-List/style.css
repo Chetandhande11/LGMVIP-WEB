@@ -1,0 +1,129 @@
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Fira sans", "sans serif";
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #7142d8;
+    color: #fff;
+  }
+  
+  header {
+    padding: 40px 10px;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 250px;
+  }
+  header h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  #new-todo-form {
+    display: flex;
+  }
+  input,
+  button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  #new-todo-input {
+    flex: 1 1 0%;
+    background-color: #1b0505;;
+    padding: 16px;
+    border-radius: 16px;
+    margin-right: 16px;
+    color: #fff;
+    font-size: 20px;
+  }
+  #new-todo-submit {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: 5px solid black;
+    padding: 5px 15px;
+  }
+  
+  #new-todo-submit:hover {
+    opacity: 0.8;
+  }
+  #new-todo-submit:active {
+    opacity: 0.6;
+  }
+  main {
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .todo-list {
+    padding: 16px;
+  }
+  .todo-list h2 {
+    font-size: 40px;
+    font-weight: 300;
+    color:#6b7280 ;
+    margin-bottom: 16px;
+  }
+  #todos .todo {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #1b0505;
+    padding: 16px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    width: 87%;
+  }
+  #todos .todo .content {
+    flex: 1 1 0%;
+  }
+  #todos .todo .content .text {
+    color:#fff;
+    font-size: 18px;
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+  }
+  #todos .todo .content .text:not(:read-only) {
+    color: #c4aad8d5; ;
+  }
+  #todos .todo .actions {
+    display: flex;
+    margin: 0 -8px;
+  }
+  .todo .actions button {
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.4s;
+  }
+  .todo .actions button:hover {
+    opacity: 0.8;
+  }
+  .todo .actions button:active {
+    opacity: 0.6;
+  }
+  .todo .actions .edit {
+    color: #fff;
+    border: 5px solid #a8e2d7;
+    padding: 5px 15px;
+  }
+  .todo .actions .delete {
+    color: #fff;
+    border: 5px solid #a8e2d7;
+    padding: 5px 15px;
+  }
+  .todo-list h2{
+    color: #fff;
+  }
