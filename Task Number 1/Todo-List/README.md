@@ -5,3 +5,8 @@
 </h2>
 1. learn about How backend is work. <br>
 2. learn about javascript .
+<h3>Time taken to finish this project?</h3>
+<p>30 Min</p>
+<hr>
+<h2>Output :- </h2>
+<img src="./Images/Image.png" alt="Output">
