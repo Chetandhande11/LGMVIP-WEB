@@ -1,4 +1,4 @@
-<h1>Calculator ( <a href="https://chetand4.netlify.app/">Live Link )</a></h1>
+<h1>Calculator ( <a href="https://chetand.netlify.app/">Live Link )</a></h1>
 <h2>About</h2>
 <p>This Calculator website is created using only HTML CSS JS.</p> <hr>
 <h2>What did I learn by making this project?
