@@ -4,7 +4,7 @@
 <h2>What did I learn by making this project?
 </h2>
 1. learn about How backend is work. <br>
-2. learn about javascript .
+2. learn about javascript . <hr>
 <h3>Time taken to finish this project?</h3>
 <p>30 Min</p>
 <hr>
