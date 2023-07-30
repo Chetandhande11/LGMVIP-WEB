@@ -1,4 +1,4 @@
-<h1> Registration Form ( <a href="https://csd1.netlify.app/">Live Link )</a></h1>
+<h1> Registration Form ( <a href="https://chetandhandea.netlify.app/">Live Link )</a></h1>
 <h2>About</h2>
 <p>This Registration Form website is created using only HTML CSS JS.</p> <hr>
 <h2>What did I learn by making this project?
